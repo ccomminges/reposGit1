@@ -20,7 +20,7 @@ public class Ajout {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
 			//verif connexion:
-			Connection cx=DriverManager.getConnection(URL,USERNAME, PASSWORD);
+			Connection cx=DriverManager.getConnection(URL, PASSWORD);
 			
 			//requete:
 			String req1="insert into etudiants (nom,prenom) values (?,?)";
